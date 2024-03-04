@@ -99,6 +99,24 @@ header nav ul {
   font-weight: 700;
 }
 
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2rem 0 2rem 0;
+}
+footer nav ul {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 18px;
+  font-weight: 700;
+}
+footer ul {
+  display: flex;
+  gap: 2rem;
+}
+
 .section-hero {
   display: flex;
   flex-direction: column;
@@ -201,4 +219,10 @@ header nav ul {
 .section-previous__line {
   border-top: 1px solid #D8D8D8;
   margin-bottom: 3rem;
+}
+
+.footer-links {
+  display: flex;
+  align-items: center;
+  gap: 6rem;
 }/*# sourceMappingURL=style.css.map */

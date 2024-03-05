@@ -142,6 +142,7 @@ footer ul {
   grid-template-columns: repeat(2, 1fr);
 }
 
+/* INDEX PAGE */
 .section-hero {
   display: flex;
   flex-direction: column;
@@ -174,6 +175,9 @@ footer ul {
 }
 .section-hero__textbox p::before {
   content: "";
+  display: block;
+  width: 32px;
+  border: 1px solid #111;
 }
 
 /* gallery section */
@@ -240,6 +244,7 @@ footer ul {
   gap: 6rem;
 }
 
+/* PROJECTS PAGE */
 /* sub-hero section */
 .section-subhero {
   display: flex;

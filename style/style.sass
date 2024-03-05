@@ -147,6 +147,7 @@ footer
   &-2
     grid-template-columns: repeat(2, 1fr)
 
+/* INDEX PAGE */
 .section-hero
   display: flex
   flex-direction: column
@@ -168,19 +169,22 @@ footer
   margin-bottom: 6rem
   
 
-  & h1, span
+  h1, span
     font-size: 40px
     font-weight: 700
 
-  & p
+  p
     color: $offset-clr-500
     font-size: 18px
     font-style: italic
 
     text-align: end
 
-  & p::before
+  p::before
     content: ""
+    display: block
+    width: 32px
+    border: 1px solid $offset-clr-500
 
 /* gallery section */
 .section-gallery img
@@ -240,7 +244,7 @@ footer
   align-items: center
   gap: 6rem
 
-
+/* PROJECTS PAGE */
 /* sub-hero section */
 .section-subhero
   display: flex

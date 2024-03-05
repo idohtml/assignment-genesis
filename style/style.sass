@@ -126,6 +126,8 @@ footer
     display: flex
     gap: 2rem
 
+.line
+  border-top: 1px solid $line-clr
 
 .section-hero
   display: flex
@@ -178,6 +180,9 @@ footer
   display: grid
   gap: 1rem
 
+.grid-center
+  place-items: center
+
 .grid-cols
   grid-template-columns: repeat(3, 1fr)
 
@@ -219,13 +224,87 @@ footer
 .section-previous__package
   width: 190px
 
-.section-previous__line
-  border-top: 1px solid $line-clr
-  margin-bottom: 3rem
-
 
 /* Footer */
 .footer-links
   display: flex
   align-items: center
   gap: 6rem
+
+
+/* sub-hero section */
+.section-subhero
+  display: flex
+  gap: 2rem
+  margin: 8rem 0 2rem 0
+
+  &__textbox
+    display: flex
+    flex-direction: column
+    width: 100%
+
+    h1
+      font-size: 40px
+      margin-bottom: 2rem
+
+    p
+      font-size: 16px
+      font-weight: 300
+      margin-bottom: 2rem
+
+  &__projects
+    display: flex
+    justify-content: flex-end
+    width: 100%
+
+.section-subhero__project
+  display: flex
+
+  font-size: 18px
+  padding: 1rem 0
+
+.info-table
+  width: 55%
+  border-collapse: collapse
+  margin-right: 2rem
+
+  th, td
+    text-align: left
+    padding: 0.5rem
+    font-size: 16px
+    font-weight: 700
+
+    &:first-child
+      font-weight: normal
+
+    &:last-child
+      font-weight: bold
+
+  th
+    color: #888
+
+  tr:not(:last-child)
+    th, td
+      border-bottom: 1px solid #ddd
+
+.section-story
+
+  img
+    width: 100%
+    height: 100%
+    object-fit: cover
+    margin-bottom: 2rem
+
+  p
+    font-size: 16px
+    font-weight: 400
+    line-height: 1.6
+    margin-bottom: 2rem
+
+.section-cards
+  width: 100%
+
+  img
+    width: 100%
+    height: 100%
+    object-fit: cover
